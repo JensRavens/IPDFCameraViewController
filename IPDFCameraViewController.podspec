@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   s.source_files = 'IPDFCameraViewController/IPDFCameraViewController.*'
 
   s.requires_arc = true
+
+  spec.framework = 'AVFoundation'
 end
